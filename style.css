@@ -1,0 +1,349 @@
+
+body{
+    font-family: 'Dancing Script', 'cursive';
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Work Sans', sans-serif;
+    /* font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+}
+.all{
+    background-color: #eee;
+}
+header{
+    background-color:rgb(34, 33, 33);
+    display: flex;
+    justify-content: space-between;
+}
+.nav1 {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 33px;
+    right: 39px;
+    
+}
+.nav1 li a {
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    padding-left:50px;
+    text-align: center;
+    color: white;
+}
+.nav1 li a:hover {
+    transition-duration: .3s;
+    color: gray;
+     opacity: .8; 
+     text-align: center;
+}
+.logo{
+    padding-left: 50px;
+    color:crimson;
+}
+.intro img{
+    /* background-image: url(istockphoto-1278529171-612x612.jpg); */
+    height: 500px;
+    width: 100%;
+    filter: brightness(30%); /* to darken the image */
+    height: 650px;
+}
+.background .intro .textcentre{
+    position: absolute;
+    top: 280px;
+    left: 600px;
+    font-size: 30px;
+    color: whitesmoke;
+}
+h1{
+    color: crimson;
+}
+.job{
+    margin-left: 50px;
+    color: gray;
+    font-size: 25px;
+}
+.background .intro .textcentre .hello{
+margin-left: 130px;
+}
+.content {
+    max-width: 1200px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+    padding-top: 60px;
+
+  }
+  .par1{
+    display: flex;
+  }
+.par1 h2{
+    margin-left: 220px;
+    font-size: 50px;
+    color: rgb(237, 42, 81);
+}
+.par1 p{
+    margin-left: 30px;
+    line-height: 2;
+}
+.line{
+    background-color: rgb(180, 174, 174);
+    height: 1px;
+    width: 550px;
+    margin-left: 30px;
+}
+.nestchild1{
+    display: flex;
+    margin-left: 30px;
+}
+.nestchild1 span{
+    font-weight: bold;
+    color: black !important;
+}
+.nestchild1 p{
+    color: rgb(97, 96, 96);
+}
+.data1{
+    display: block;
+}
+.buttons{
+    margin-left: 30px;
+}
+.buttons button{
+    background-color: rgb(251, 48, 89);
+    width: 200px;
+    height: 50px;
+    color: whitesmoke;
+    font-size: 25px;
+    padding: 10px;
+    margin-left: 15px;
+    border: 1px solid;
+    border-radius: 200px;
+}
+.sec2 .content
+{
+    margin-top: 60px;
+    background-color: #eee;
+}
+.sec2 .content .line{
+    margin-left: 324px;
+    margin-top: -26px;
+}
+.sec2 .content .Service{
+    font-size: 50px;
+    color: rgb(87, 84, 84);
+    font-weight: bold;
+    margin-left: 500px;
+}
+.sec2 .content .services{
+    margin:70px;
+    display: flex;
+}
+.sec2 .content .ser1 i{
+    font-size: 30px;
+    margin-left: 85px;
+    color: rgb(251, 48, 89);
+}
+.sec2 .content .ser1 h3{
+    margin-left: 40px;
+    color: rgb(75, 75, 75);
+}
+.sec3 .content .portfolio{
+    font-size: 50px;
+    color: rgb(87, 84, 84);
+    font-weight: bold;
+    margin-left: 450px;
+}
+.sec3 .content .line{
+    margin-left: 324px;
+    margin-top: 15px;
+}
+.row1 ,.row2{
+    display: flex;
+}
+.row1 img ,.row2 img{
+    width: 30%;
+    height: 350px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.nav2 {
+list-style: none;
+display: flex;  
+margin-left: 250px;
+margin-top: 15px;
+}
+.nav2 li a{
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    padding-left:50px;
+    text-align: center;
+    color:rgb(106, 103, 103);
+}   
+.ff{
+    margin-left: 60px;
+}
+.ff i{
+    margin-left:50px !important; 
+}
+.sec4 .feed{
+    font-size: 50px;
+    color: rgb(87, 84, 84);
+    font-weight: bold;
+    margin-left: 400px;
+   
+}
+.sec4 .line{
+    margin-left: 330px;
+}
+.client{
+    position: relative;
+    background-color: gainsboro;
+    width: 1000px;
+    height: 250px;
+    margin-left: 120px;
+    margin-top: 70px;
+    display: flex;
+}
+.client::before{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 1px solid transparent;
+    border-bottom: 139px solid transparent;
+    border-left: 169px solid rgb(248, 45, 85);
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+.client img{
+    border: 1px solid;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 70px;
+    margin-top: 30px;
+    z-index: 9; /* ازاى اظهر الصوره فوق بيفور*/
+}
+.client h3{
+  color: black !important;
+  font-size: 23px;
+}
+.client .clienttalk{
+    margin-left: 50px;
+    color: rgb(106, 104, 104);
+    font-size: 18px;
+}
+.stars{
+    position: absolute;
+    left: 319px;
+    bottom: 37px;
+    color: orange;
+}
+.blog{
+    font-size: 50px;
+    color: rgb(87, 84, 84);
+    font-weight: bold;
+    margin-left: 500px;
+}
+.sec5 .content{
+    margin-top: 60px;
+    background-color: #eee;
+}
+.sec5 .line{
+    margin-left: 350px;
+    margin-top: 30px;
+}
+.sec5 .row2 .con h4{
+    margin-left: 60px;
+}
+.sec5 .row2 .con {
+   padding: 20px;
+    background-color: aliceblue;
+    width: 30%;
+    height: 200px;
+    margin-left: 40px;
+    
+}
+.sec5 .row2 .con a{
+    text-decoration: none;
+    color: crimson;
+}
+.sec6 .con
+{
+    font-size: 50px;
+    color: rgb(87, 84, 84);
+    font-weight: bold;
+    margin-left: 450px;   
+}
+.sec6 .content .line{
+    margin-left: 270px;
+}
+form{
+    margin-top: 10px;
+    position: relative;
+}
+form input{
+    width: 350px;
+    height:40px;
+    border-radius: 16px;
+    margin-left: 150px;
+    margin-top: 50px;
+    border-color: rgb(200, 196, 196);
+    padding: 5px;
+    font-size: 20px;
+}
+form textarea{
+    width: 600px;
+    height:200px;
+    border-radius: 16px;
+    margin-left: 150px;
+    margin-top: 50px;
+    border-color: rgb(200, 196, 196);
+    padding: 5px;
+    margin-bottom: 50px;   
+    font-size: 20px;
+}
+form button{
+    background-color: rgb(251, 48, 89);
+    width: 200px;
+    height: 50px;
+    color: whitesmoke;
+    font-size: 25px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 200px;  
+    position: absolute;
+    bottom: 0;
+    left: 520px;
+}
+footer{
+    background-color: rgb(48, 48, 48);
+    height: 200px;
+    margin-top: 30px;
+}
+.center{
+    margin-left: 580px;
+    /* margin-top: 150px; */
+}
+footer i{
+    font-size: 30px;
+    color: aliceblue;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+footer .twi{
+    color: rgb(232, 46, 83);
+}
+footer p{
+    color: white;
+    margin-top: 40px;
+}
+footer span{
+    color: rgb(232, 46, 83);
+}
